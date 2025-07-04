@@ -23,3 +23,17 @@ function App() {
 }
 
 export default App;
+
+
+//import moodcard
+
+import MoodCard from './components/MoodCard';
+
+function App() {
+  return (
+    <div>
+      <MoodCard emoji="😊" name="Happy" />
+      <MoodCard emoji="😢" name="Sad" />
+    </div>
+  );
+}
